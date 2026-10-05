@@ -4,7 +4,6 @@ public class Exercicio_01 {
         int numero = 233;
 
         while (numero <= 456) {
-
             System.out.println(numero);
 
             if (numero >= 300 && numero <= 400) {

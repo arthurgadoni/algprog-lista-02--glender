@@ -6,12 +6,9 @@ public class Exercicio_06 {
 
         int maior_indice = 0;
         int menor_indice = 0;
-
         int codigo_maior = 0;
         int codigo_menor = 0;
-
         int soma_veiculos = 0;
-
         int soma_acidentes_menos2000 = 0;
         int cidades_menos2000 = 0;
 
@@ -62,8 +59,8 @@ public class Exercicio_06 {
         System.out.println("Media de veiculos é de " + media_veiculos);
 
         if (cidades_menos2000 > 0) {
-            double mediaAcidentes = (double) soma_acidentes_menos2000 / cidades_menos2000;
-            System.out.println("Media de acidentes nas cidades com menos de 2000 veiculos sera de " + mediaAcidentes);
+            double media_acidentes = (double) soma_acidentes_menos2000 / cidades_menos2000;
+            System.out.println("Media de acidentes nas cidades com menos de 2000 veiculos sera de " + media_acidentes);
         } else {
             System.out.println("Nenhuma cidade possui menos de 2000 veiculos manezao");
         }
